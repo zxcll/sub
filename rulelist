@@ -16,3 +16,4 @@ Private Tracker protocol
 (.*\.||)(taobao)\.(com)
 (.*\.||)(metatrader4|metatrader5|mql5)\.(org|com|net)
 (.*\.||)(rising|kingsoft|duba|xindubawukong|jinshanduba)\.(com|net|org)
+(Sub­ject|HELO|SMTP)
