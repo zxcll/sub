@@ -1,5 +1,2 @@
-DOMAIN,cf.emby.ml
-DOMAIN,cf.xmsl.org
-DOMAIN,cfde.xmsl.org
-DOMAIN,cfca.xmsl.org
-DOMAIN,cfgtlx.org
+DOMAIN-SUFFIX,xmsl.org
+DOMAIN-SUFFIX,gtlx.org
