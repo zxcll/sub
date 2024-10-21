@@ -9,5 +9,9 @@ DOMAIN,ushd.xmsl.org
 DOMAIN,ee.xmsl.org
 DOMAIN,line.emby.moe
 DOMAIN,cf.emby.moe
-IP-CIDR,89.58.63.237/24
+DOMAIN,loacl.emby.moe
+DOMAIN,cfloacl.emby.moe
+DOMAIN,loacl2.emby.moe
+DOMAIN,cfloacl2.emby.moe
+
 
