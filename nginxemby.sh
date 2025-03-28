@@ -16,7 +16,6 @@ fi
 # 将输入的端口转为整数，方便后续计算
 PORT=$((PORT))
 PORT_PLUS1=$((PORT + 1))
-PORT_PLUS2=$((PORT + 2))
 
 # 原始 Nginx 配置内容
 NGINX_CONFIG=$(cat <<EOF
@@ -71,7 +70,7 @@ CONFIG2=$(echo "$NGINX_CONFIG" | sed -e "s/listen [0-9]*;/listen $PORT_PLUS1;/" 
 
 # 配置 3：替换 listen、hd.xmsl.org 和 server_name
 CONFIG3=$(echo "$NGINX_CONFIG" | sed -e "s/listen [0-9]*;/listen $PORT_PLUS2;/" \
-                                     -e "s/hd\.xmsl\.org/cfloacl2.emby.moe/g" \
+                                     -e "s/hd\.xmsl\.org/line.xmsl.org/g" \
                                      -e "s/server_name .*;/server_name $DOMAIN_OR_IP;/")
 
 # 检查目录是否存在，不存在则创建
@@ -90,3 +89,4 @@ echo "配置已写入:"
 echo "  $CONFIG_DIR/emby.conf"
 echo "  $CONFIG_DIR/emby1.conf"
 echo "  $CONFIG_DIR/emby2.conf"
+echo "输入的端口+2可以作为连接地址"
