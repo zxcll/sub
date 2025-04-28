@@ -71,7 +71,7 @@ CONFIG2=$(echo "$NGINX_CONFIG" | sed -e "s/listen [0-9]*;/listen $PORT_PLUS1;/" 
 
 # 配置 3：替换 listen、hd.xmsl.org 和 server_name
 CONFIG3=$(echo "$NGINX_CONFIG" | sed -e "s/listen [0-9]*;/listen $PORT_PLUS2;/" \
-                                     -e "s/cfhd\.xmsl\.org/cfloacl2.emby.moe/g" \
+                                     -e "s/cfhd\.xmsl\.org/cf.xmsl.org/g" \
                                      -e "s/server_name .*;/server_name $DOMAIN_OR_IP;/")
 
 # 检查目录是否存在，不存在则创建
