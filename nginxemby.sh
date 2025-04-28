@@ -16,6 +16,7 @@ fi
 # 将输入的端口转为整数，方便后续计算
 PORT=$((PORT))
 PORT_PLUS1=$((PORT + 1))
+PORT_PLUS2=$((PORT + 2))
 
 # 原始 Nginx 配置内容
 NGINX_CONFIG=$(cat <<EOF
