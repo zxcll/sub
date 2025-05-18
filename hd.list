@@ -1,5 +1,4 @@
-DOMAIN,tw.loseremby.org
-DOMAIN,orkr.loseremby.org
+DOMAIN-SUFFIX,loseremby.org
 IP-CIDR,154.12.52.149/25
 IP-CIDR,146.235.227.133/25
 IP-CIDR,152.70.233.134/25
