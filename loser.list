@@ -1,12 +1,4 @@
-DOMAIN,cf.xmsl.org
-DOMAIN,line.xmsl.org
-DOMAIN,cf.gtlx.org
-DOMAIN,ykk.emby.moe
-DOMAIN,cf.niceduck.lol
-DOMAIN,dwq.emby.moe
-DOMAIN,yepfast.emby.moe
-DOMAIN,qf.emby.moe
-DOMAIN,fanrr.emby.moe
-DOMAIN,lyy.emby.moe
-DOMAIN,hcemby.emby.moe
-DOMAIN,pthc.emby.moe
+DOMAIN-SUFFIX,xmsl.org
+DOMAIN-SUFFIX,emby.moe
+DOMAIN-SUFFIX,xxlb.net
+
