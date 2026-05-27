@@ -111,7 +111,7 @@ def main():
     userid_pattern = re.compile(r"userid=([^&\s]+)")
     server_pattern = re.compile(r"server=([^&\s]+)")
     ua_pattern = re.compile(r'"([^"]*)"\s*$')
-    server_map = {'1':'gy','2':'gf','3':'ald','4':'dyy','5':'YKK','6':'qf','7':'momo','8':'mc','9':'zdxb','99':'其他'}
+    server_map = {'1':'gy','2':'gf','3':'ald','4':'dyy','5':'YKK','6':'qf','7':'momo','8':'mc','9':'zdxb','99':'其他','10':'gf2'}
 
     try:
         with open(args.log, "r", encoding="utf-8", errors='ignore') as f:
